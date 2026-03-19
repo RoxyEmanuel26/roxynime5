@@ -5,4 +5,3 @@ export { NativeAd } from "./NativeAd";
 export { InterstitialAd } from "./InterstitialAd";
 export { PopunderAd } from "./PopunderAd";
 export { StickyMobileAd } from "./StickyMobileAd";
-export { SocialBarAd } from "./SocialBarAd";

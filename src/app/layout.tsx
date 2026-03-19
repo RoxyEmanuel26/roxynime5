@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 import { Providers } from "@/components/providers";
 import { Header, Footer } from "@/components/layout";
-import { PopunderAd, StickyMobileAd, SocialBarAd } from "@/components/ads";
+import { PopunderAd, StickyMobileAd } from "@/components/ads";
 import { DataSaverBanner } from "@/components/common/DataSaverBanner";
 import { DisablePrefetch } from "@/components/common/DisablePrefetch";
 import { SAVER_CONFIG } from "@/config/dataSaver";
@@ -107,7 +107,6 @@ export default function RootLayout({
           <DisablePrefetch />
           <DataSaverBanner />
           <PopunderAd />
-          <SocialBarAd />
           <Header />
           <main className="flex-1 pb-14 lg:pb-0">{children}</main>
           <StickyMobileAd />
